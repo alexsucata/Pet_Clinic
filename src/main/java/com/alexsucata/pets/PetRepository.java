@@ -10,7 +10,7 @@ public interface PetRepository {
 
     List<PetEntity> findAll();
 
-    void update(PetEntity petId, PetEntity pet);
+    void update(Integer petId, PetEntity pet);
 
     void delete(Integer petId);
 
